@@ -35,7 +35,7 @@ int main() {
 
         // 2. Hashing function demo
         std::cout << "\n[2] Hashing Function Demo\n";
-        std::string sample_text = "Quantum resistant hash sample";
+        std::string sample_text = "4!*QuantumPasswordExample1";
         std::vector<uint8_t> sample_data(sample_text.begin(), sample_text.end());
 
         auto hash_result = hash_data(sample_data);
@@ -58,7 +58,7 @@ int main() {
 
         // 4. Encryption and decryption
         std::cout << "\n[4] Encryption & Decryption\n";
-        std::string secret_message = "Are fitymaking really? teszt14 SufniSquad Sufni azaz Akosh amata love";
+        std::string secret_message = "Secret Test Message";
         std::vector<uint8_t> message(secret_message.begin(), secret_message.end());
 
         std::cout << "  - Original message: " << secret_message << "\n";
