@@ -1,4 +1,4 @@
-# fcrypt - Quantum-Resistant Cryptography Library
+# Fcrypt - Quantum-Resistant Cryptography Library
 
 A C++ library implementing quantum-resistant cryptographic algorithms based on the Module Learning With Errors (Module-LWE) problem, inspired by the Kyber post-quantum cryptography standard.
 
