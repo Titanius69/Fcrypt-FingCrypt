@@ -250,3 +250,7 @@ The library is designed to provide approximately 128-bit security against classi
 2. **Not Production Ready**: Do not use in production environments
 3. **Security Audit Required**: Requires thorough security review before any real-world use
 4. **Constant-Time Operations**: Implementation may be vulnerable to timing attacks
+
+## License
+
+This project is licensed under the [Apache License 2.0](LICENSE) – see the LICENSE file for details.
