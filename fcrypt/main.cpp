@@ -45,7 +45,7 @@ int main() {
 
         // 3. MAC generation and verification
         std::cout << "\n[3] MAC Generation & Verification\n";
-        std::string mac_message = "Message for MAC verification, de téynleg igaz ez te noki? kurva cigány fityma skibiidi";
+        std::string mac_message = "Test message for MAC verification";
         std::vector<uint8_t> mac_data(mac_message.begin(), mac_message.end());
 
         auto generated_mac = generate_mac(mac_data, key_pair.mac_key);
